@@ -10,16 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-static void	ft_print_rec(int n, int fd)
-{
-	if (n > 0)
-	{
-		ft_print_rec(n / 10, fd);
-		ft_putchar_fd((n % 10) + '0', fd);
-	}
-}
+#include "ft_libft.h"
 
 void	ft_putnbr_fd(int n, int fd)
 {
@@ -35,6 +26,7 @@ void	ft_putnbr_fd(int n, int fd)
 			n = -n;
 		}
 		if (n > 0)
-			ft_print_rec(n, fd);
+			ft_print_rec(n / 10, fd);
+			ft_putchar_fd((n % 10) + '0', fd);
 	}
 }

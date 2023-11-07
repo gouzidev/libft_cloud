@@ -54,7 +54,7 @@ re: fclean all
 # ft_isdigit.c \
 # ft_isprint.c \
 # ft_itoa.c \
-# libft.h \
+# ft_libft.h \
 # ft_lstadd_back.c \
 # ft_lstadd_front.c \
 # ft_lstclear.c \

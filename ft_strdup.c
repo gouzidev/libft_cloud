@@ -6,11 +6,11 @@
 /*   By: sgouzi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/05 22:39:05 by sgouzi            #+#    #+#             */
-/*   Updated: 2023/11/07 02:53:21 by sgouzi           ###   ########.fr       */
+/*   Updated: 2023/11/05 22:39:39 by sgouzi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_libft.h"
 
 char	*ft_strdup(const char *s1)
 {
@@ -30,6 +30,5 @@ char	*ft_strdup(const char *s1)
 		buf[i] = s1[i];
 		i++;
 	}
-	buf[i] = '\0';
 	return (buf);
 }

@@ -10,19 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strtrim.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sgouzi <marvin@42.fr>                      +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/11/05 21:35:19 by sgouzi            #+#    #+#             */
-/*   Updated: 2023/11/05 22:31:11 by sgouzi           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-#include "libft.h"
+#include "ft_libft.h"
 
 static int	in_set(char c, char const *set)
 {
@@ -67,9 +55,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	}
 	i = 0;
 	buff = malloc((end - start + 1) * sizeof(char));
-	if (buff == NULL)
-        return (NULL);
-    while (start + i < end)
+	while (start + i < end)
 	{
 		buff[i] = s1[start + i];
 		i++;

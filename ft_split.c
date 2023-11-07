@@ -6,11 +6,11 @@
 /*   By: sgouzi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/05 22:41:07 by sgouzi            #+#    #+#             */
-/*   Updated: 2023/11/05 23:38:08 by sgouzi           ###   ########.fr       */
+/*   Updated: 2023/11/05 22:59:41 by sgouzi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_libft.h"
 
 static int	count_words(char const *s1, char c)
 {
