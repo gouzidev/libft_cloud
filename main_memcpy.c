@@ -6,7 +6,7 @@
 /*   By: sgouzi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 16:29:38 by sgouzi            #+#    #+#             */
-/*   Updated: 2023/11/07 02:40:04 by sgouzi           ###   ########.fr       */
+/*   Updated: 2023/11/07 02:41:48 by sgouzi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,13 +61,13 @@ int main()
 
 	
 	printf("dyalhom\n");
-	res2 = memcpy(dest3, src3, 17);
+	res3 = memcpy(dest3, src3, 17);
 	printf("src3 -> %s\n", src3);
 	printf("dst3 -> %s\n", dest3);
 	printf("res3 -> %s\n", res3);
 
 	printf("dyali\n");
-	res1 = ft_memcpy(dest4, src4, 17);
+	res4 = ft_memcpy(dest4, src4, 17);
 	printf("src4 -> %s\n", src4);
 	printf("dst4 -> %s\n", dest4);
 	printf("res4 -> %s\n", res4);
